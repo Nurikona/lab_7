@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edFileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя файла" />
+
+    <EditText
+        android:id="@+id/edFileContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Содержимое"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:gravity="top" />
+</LinearLayout>
